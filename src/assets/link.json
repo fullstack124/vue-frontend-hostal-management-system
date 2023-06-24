@@ -1,0 +1,174 @@
+[
+    {
+        open: false,
+        name: "Dashboard",
+        link: "/",
+        icon: "<i class='fa-solid fa-gauge'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "User",
+        link: "/about",
+        icon: "<i class='fa-solid fa-users'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "Member",
+        link: "/about",
+        icon: "<i class='fa-solid fa-user'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "Bed Manager",
+        link: "/about",
+        icon: "<i class='fa-solid fa-bed'></i>",
+        sub_menu: [
+          {
+            name: "Bed Assign",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed-pulse'></i>"
+          },
+          {
+            name: "Bed ",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+          {
+            name: "Room",
+            link: "/",
+            icon: '<i class="fa-solid fa-hospital"></i>'
+          },
+          {
+            name: "Category",
+            link: "/",
+            icon: '<i class="fa-solid fa-certificate"></i>'
+          }
+        ]
+      },
+      {
+        open: false,
+        name: "Food Meal",
+        link: "/about",
+        icon: "<i class='fa-solid fa-bed'></i>",
+        sub_menu: [
+          {
+            name: "Order",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed-pulse'></i>"
+          },
+          {
+            name: "Pos",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+          {
+            name: "Food Item",
+            link: "/",
+            icon: '<i class="fa-solid fa-hospital"></i>'
+          },
+          {
+            name: "Food Sub Category",
+            link: "/",
+            icon: '<i class="fa-solid fa-certificate"></i>'
+          },
+          {
+            name: "Food Category",
+            link: "/",
+            icon: '<i class="fa-solid fa-certificate"></i>'
+          }
+        ]
+      },
+      {
+        open: false,
+        name: "Bill",
+        link: "/about",
+        icon: "<i class='fa-solid fa-bed'></i>",
+        sub_menu: [
+          {
+            name: "Bill Payment",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed-pulse'></i>"
+          },
+          {
+            name: "Bill",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+        ]
+      },
+      {
+        open: false,
+        name: "Visitor Info",
+        link: "/",
+        icon: "<i class='fa-solid fa-gauge'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "Notice",
+        link: "/",
+        icon: "<i class='fa-solid fa-gauge'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "Account Ledger Report",
+        link: "/",
+        icon: "<i class='fa-solid fa-gauge'></i>",
+        sub_menu: null
+      },
+      {
+        open: false,
+        name: "Administrator",
+        link: "/about",
+        icon: "<i class='fa-solid fa-bed'></i>",
+        sub_menu: [
+          {
+            name: "Update",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed-pulse'></i>"
+          },
+          {
+            name: "Permission",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+          {
+            name: "Role",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+          {
+            name: "Branch Category",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+          {
+            name: "Branch",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+        ],
+      },
+      {
+        open: false,
+        name: "Settings",
+        link: "/about",
+        icon: "<i class='fa-solid fa-bed'></i>",
+        sub_menu: [
+          {
+            name: "General Setting",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed-pulse'></i>"
+          },
+          {
+            name: "Email Setting",
+            link: "/",
+            icon: "<i class='fa-solid fa-bed'></i>"
+          },
+        ]   
+      }
+]
